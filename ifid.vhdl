@@ -11,6 +11,7 @@ use ieee.std_logic_unsigned.all;
 
 entity ifid is 
 port(
+disable: in std_logic;
 clock: in std_logic;
 rst: in std_logic;
 Bubble: in std_logic;
@@ -47,7 +48,7 @@ begin
 				if(Reg_datain = "0000000000000000") then
 					reg(16) <= '1';
 				else
-					reg(16) <= dis; --disable
+					reg(16) <= dis or disable; --disable
 				end if;
 				if(Reg_datain(15 downto 12) = "1100" or Reg_datain(15 downto 12) = "1101") then
 					reg(32 downto 17) <= adder1out; --upgraded pc for jlr

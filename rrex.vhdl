@@ -9,6 +9,7 @@ use ieee.std_logic_unsigned.all;
 
 entity rrex is 
 port(
+disable: in std_logic;
 clock: in std_logic;
 rst: in std_logic;
 Bubble: in std_logic;
@@ -69,7 +70,7 @@ begin
 				
 			end if;
 			
-			reg(75) <= Reg_datain(48) or dis or dis1; --disable
+			reg(75) <= Reg_datain(48) or dis or dis1 or disable; --disable
 			
 		else
 			

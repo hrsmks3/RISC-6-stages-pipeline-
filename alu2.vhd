@@ -18,6 +18,7 @@ alu2b: in std_logic_vector(15 downto 0);
 pc: in std_logic_vector(15 downto 0);
 imm: in std_logic_vector(15 downto 0);
 alu2c: out std_logic_vector(15 downto 0);
+target_add: out std_logic_vector(15 downto 0);
 carry: out std_logic;
 zero: out std_logic
 );
@@ -30,6 +31,7 @@ signal carry1: std_logic := '0';
 signal zero1: std_logic := '0';
 signal temp: std_logic_vector(15 downto 0) := (others => '0');
 signal temp1: std_logic_vector(17 downto 0) := (others => '0');
+signal target1: std_logic_vector(15 downto 0) := (others => '0');
 
 	function add(A: in std_logic_vector(15 downto 0); B: in std_logic_vector(15 downto 0); C: in std_logic)
 	return std_logic_vector is
@@ -140,21 +142,26 @@ begin
 			alu2c1 <= add(alu2a, alu2b, '0')(15 downto 0);
 			carry1 <= add(alu2a, alu2b, '0')(16);
 			zero1 <= add(alu2a, alu2b, '0')(17);
+			target1 <= add(alu2a, alu2b, '0')(15 downto 0);
 			
 		elsif(select0 = "0001") then --awc, acw
 			
 			alu2c1 <= add(alu2a, alu2b, car)(15 downto 0);
 			carry1 <= add(alu2a, alu2b, car)(16);
 			zero1 <= add(alu2a, alu2b, car)(17);
+			target1 <= add(alu2a, alu2b, '0')(15 downto 0);
 			
 		elsif(select0 = "0100") then --ndu, ndc, ndz, ncu, ncc, ncz
 			
+			target1 <= add(alu2a, alu2b, '0')(15 downto 0);
 			alu2c1 <= nand1(alu2a, alu2b)(15 downto 0);
 			zero1 <= nand1(alu2a, alu2b)(16);
 			
 		elsif(select0 = "0110") then --beq, blt, ble, jal
 			
 			alu2c1 <= add(pc, imm, '0')(15 downto 0);
+			target1 <= add(pc, imm, '0')(15 downto 0);
+			
 			
 		elsif(select0 = "0111") then --jri
 			
@@ -163,16 +170,19 @@ begin
 		elsif(select0 = "1000") then --lw, sw, jlr
 			
 			alu2c1 <= add(alu2b, imm, '0')(15 downto 0);
+			target1 <= add(alu2b, imm, '0')(15 downto 0);
 			
 		elsif(select0 = "1001") then --lli
 			
 			alu2c1 <= imm;
+			target1 <= imm;
 			
 		elsif(select0 = "1011") then --adi
 			
 			alu2c1 <= add(alu2a, imm, '0')(15 downto 0);
 			carry1 <= add(alu2a, imm, '0')(16);
 			zero1 <= add(alu2a, imm, '0')(17);
+			target1 <= add(alu2a, imm, '0')(15 downto 0);
 		
 		end if;
 		
@@ -183,5 +193,6 @@ begin
 	alu2c <= alu2c1;
 	carry <= carry1 or car;
 	zero <= zero1;
+	target_add <= target1;
 	
 end beh;

@@ -9,6 +9,7 @@ use ieee.std_logic_unsigned.all;
 
 entity idrr is 
 port(
+disable: in std_logic;
 clock: in std_logic;
 rst: in std_logic;
 Bubble: in std_logic;
@@ -40,7 +41,7 @@ begin
 			
 			if(bubble = '0') then
 				
-				reg(48) <= Reg_datain(16) or dis; --disable
+				reg(48) <= Reg_datain(16) or dis or disable; --disable
 				reg(47 downto 32) <= Reg_datain(32 downto 17); --pc
 				reg(31 downto 16) <= Reg_datain(15 downto 0); --inst
 					

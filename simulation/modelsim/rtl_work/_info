@@ -8,9 +8,9 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/simulation/modelsim
+Z0 dC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/simulation/modelsim
 Eadder1
-Z1 w1685279053
+Z1 w1685279054
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
@@ -18,19 +18,19 @@ Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 1
 R0
-Z7 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl
-Z8 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl
+Z7 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl
+Z8 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl
 l0
 Z9 L10 1
 VbIG?VNHYU[HCka6>5zQ3Y3
 !s100 15N08CW[9:73[OnSO`@M83
 Z10 OV;C;2020.1;71
 31
-Z11 !s110 1685627587
+Z11 !s110 1686528937
 !i10b 1
-Z12 !s108 1685627587.000000
-Z13 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl|
-Z14 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl|
+Z12 !s108 1686528937.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl|
+Z14 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl|
 !i113 1
 Z15 o-93 -work work
 Z16 tExplicit 1 CvgOpt 0
@@ -57,7 +57,7 @@ R14
 R15
 R16
 Ealu2
-Z17 w1685599565
+Z17 w1686411495
 R2
 R3
 R4
@@ -65,19 +65,19 @@ R5
 R6
 !i122 15
 R0
-Z18 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd
-Z19 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd
+Z18 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd
+Z19 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd
 l0
 R9
-VWz:lUDAKTD`3`FFGGH3I43
-!s100 >7J:AcJ0U85c_l:b3<R`:0
+Vam@SD>jENTZAKol<LP:O_3
+!s100 LQ9oj<T5`Ilhj?`S^0ZPO2
 R10
 31
-Z20 !s110 1685627590
+Z20 !s110 1686528941
 !i10b 1
-Z21 !s108 1685627590.000000
-Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd|
-Z23 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd|
+Z21 !s108 1686528941.000000
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd|
+Z23 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd|
 !i113 1
 R15
 R16
@@ -87,12 +87,12 @@ R3
 R4
 R5
 R6
-DEx4 work 4 alu2 0 22 Wz:lUDAKTD`3`FFGGH3I43
+DEx4 work 4 alu2 0 22 am@SD>jENTZAKol<LP:O_3
 !i122 15
-l130
-L26 162
-VlY_Fdg6Z4SS;_;^J=mhLk2
-!s100 U33JhUZ=azaz]V20bW<^82
+l132
+L27 172
+VE@eF<4?C<_O>e8]T;B8em2
+!s100 JLJMAGcCX2_XCj30F5XYT1
 R10
 31
 R20
@@ -100,6 +100,53 @@ R20
 R21
 R22
 R23
+!i113 1
+R15
+R16
+Ebtb
+Z24 w1686492743
+R2
+R3
+R4
+R5
+R6
+!i122 19
+R0
+Z25 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Branch_predictor.vhd
+Z26 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Branch_predictor.vhd
+l0
+R9
+V=[nB^50]j7PHN2l4ADQjH2
+!s100 Q6Z3aF>m[aLaO[VMZ<X1@3
+R10
+31
+Z27 !s110 1686528942
+!i10b 1
+Z28 !s108 1686528942.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Branch_predictor.vhd|
+Z30 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Branch_predictor.vhd|
+!i113 1
+R15
+R16
+Abeh
+R2
+R3
+R4
+R5
+R6
+DEx4 work 3 btb 0 22 =[nB^50]j7PHN2l4ADQjH2
+!i122 19
+l95
+L28 146
+VnKID10?WC97PalkG^Q^G_0
+!s100 kmb4d^_nJCWiD0LSzZiA^0
+R10
+31
+R27
+!i10b 1
+R28
+R29
+R30
 !i113 1
 R15
 R16
@@ -112,19 +159,19 @@ R5
 R6
 !i122 18
 R0
-Z24 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl
-Z25 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl
+Z31 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl
+Z32 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl
 l0
 R9
 VzXjCjZN4Q=Q^1V0B]3?JL3
 !s100 NVX;fnazhAQ_b4d<kjhCA0
 R10
 31
-Z26 !s110 1685627591
+R27
 !i10b 1
-Z27 !s108 1685627591.000000
-Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl|
-Z29 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl|
+R21
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl|
+Z34 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl|
 !i113 1
 R15
 R16
@@ -142,16 +189,16 @@ VoXg:oiShGJ2eYWkKW1[4m0
 !s100 lcn8@I^4GAl9b63JYmf>O2
 R10
 31
-R26
-!i10b 1
 R27
-R28
-R29
+!i10b 1
+R21
+R33
+R34
 !i113 1
 R15
 R16
 Econtroller
-Z30 w1685463415
+Z35 w1686493570
 R2
 R3
 R4
@@ -159,19 +206,19 @@ R5
 R6
 !i122 16
 R0
-Z31 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl
-Z32 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl
+Z36 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl
+Z37 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl
 l0
 R9
-VWY=dFM]fzD2gf6l>1G^n]3
-!s100 nC7W<RbW=79nYBY7AO]>z0
+V3bG4VchjK7Zd9eRO1QhQo2
+!s100 ZQGTOl``7fCe7Q`ie^`3K1
 R10
 31
 R20
 !i10b 1
 R21
-Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl|
-Z34 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl|
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl|
+Z39 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl|
 !i113 1
 R15
 R16
@@ -181,19 +228,19 @@ R3
 R4
 R5
 R6
-DEx4 work 10 controller 0 22 WY=dFM]fzD2gf6l>1G^n]3
+DEx4 work 10 controller 0 22 3bG4VchjK7Zd9eRO1QhQo2
 !i122 16
-l91
-L35 195
-VaWP[16gZI8`]eNZ7?:WET3
-!s100 HREe3RDIjIYTKO`l_M5Sd1
+l95
+L37 223
+VUlDWC43>nSUhkf>>R02:23
+!s100 `^Tk4aojjYjJKWgX_UCjn2
 R10
 31
 R20
 !i10b 1
 R21
-R33
-R34
+R38
+R39
 !i113 1
 R15
 R16
@@ -206,19 +253,19 @@ R5
 R6
 !i122 0
 R0
-Z35 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl
-Z36 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl
+Z40 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl
+Z41 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl
 l0
 R9
 Vk_51V9j87IXA?=6Qc_Ed^2
 !s100 b<ZkFSd9=KIiR7f;0U86^1
 R10
 31
-!s110 1685627586
+R11
 !i10b 1
-Z37 !s108 1685627586.000000
-Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl|
-Z39 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl|
+R12
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl|
+Z43 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl|
 !i113 1
 R15
 R16
@@ -238,14 +285,14 @@ R10
 31
 R11
 !i10b 1
-R37
-R38
-R39
+R12
+R42
+R43
 !i113 1
 R15
 R16
 Ecz
-Z40 w1685600456
+Z44 w1685600458
 R2
 R3
 R4
@@ -253,19 +300,19 @@ R5
 R6
 !i122 17
 R0
-Z41 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl
-Z42 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl
+Z45 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl
+Z46 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl
 l0
 R9
 VROi;X>hBUcFiHZWRIeD300
 !s100 D_SZl;fP0UoECfeg0^H7L1
 R10
 31
-R26
+R20
 !i10b 1
-R27
-Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl|
-Z44 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl|
+R21
+Z47 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl|
+Z48 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl|
 !i113 1
 R15
 R16
@@ -283,16 +330,16 @@ VX`>E7[Q6?YN8`kPP4h?T91
 !s100 k=i>2m07TjnYmk0S4OiSl3
 R10
 31
-R26
+R20
 !i10b 1
-R27
-R43
-R44
+R21
+R47
+R48
 !i113 1
 R15
 R16
 Edatapath
-Z45 w1685627314
+Z49 w1686411489
 R2
 R3
 R4
@@ -300,8 +347,8 @@ R5
 R6
 !i122 14
 R0
-Z46 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl
-Z47 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl
+Z50 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl
+Z51 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl
 l0
 R9
 VN@Eb1RIkMOE=YB^[ON7mK2
@@ -310,9 +357,9 @@ R10
 31
 R20
 !i10b 1
-R21
-Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl|
-Z49 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl|
+Z52 !s108 1686528940.000000
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl|
+Z54 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl|
 !i113 1
 R15
 R16
@@ -324,22 +371,22 @@ R5
 R6
 DEx4 work 8 datapath 0 22 N@Eb1RIkMOE=YB^[ON7mK2
 !i122 14
-l262
-L20 270
-VccHT_^AZz1FB>WIE6N7YB3
-!s100 AKDnP?dS9Flkd1b3SfXJ:1
+l297
+L20 306
+VkdTe6[[7JH?<87G0GW>Xi3
+!s100 5QjC`3iFUYKUO`3VK85oY2
 R10
 31
 R20
 !i10b 1
-R21
-R48
-R49
+R52
+R53
+R54
 !i113 1
 R15
 R16
 Edmem
-Z50 w1685602847
+Z55 w1685602848
 R2
 R3
 R4
@@ -347,19 +394,19 @@ R5
 R6
 !i122 6
 R0
-Z51 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl
-Z52 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl
+Z56 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl
+Z57 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl
 l0
 R9
 V:CcIDRK5fNZm4Rg?JNoWZ3
 !s100 [QJY6Pa^Jca?`gnTaE=]63
 R10
 31
-Z53 !s110 1685627588
+Z58 !s110 1686528939
 !i10b 1
-Z54 !s108 1685627588.000000
-Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl|
-Z56 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl|
+Z59 !s108 1686528938.000000
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl|
+Z61 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl|
 !i113 1
 R15
 R16
@@ -377,33 +424,33 @@ VHIc2iGil50PGCUY^YhlAN0
 !s100 7M1iM^M9fNGJNbH>HKW5b0
 R10
 31
-R53
+R58
 !i10b 1
-R54
-R55
-R56
+R59
+R60
+R61
 !i113 1
 R15
 R16
 Edut
-Z57 w1685279054
+Z62 w1685279056
 R5
 R6
 !i122 2
 R0
-Z58 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl
-Z59 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl
+Z63 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl
+Z64 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl
 l0
 L7 1
 VYlk06<oJP964WV@[DX1[63
 !s100 X]>TYLNCA;;8`0Df8[A>Z0
 R10
 31
-R11
+Z65 !s110 1686528938
 !i10b 1
-R12
-Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl|
-Z61 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl|
+R59
+Z66 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl|
+Z67 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl|
 !i113 1
 R15
 R16
@@ -418,16 +465,16 @@ VYLX`HlR>i<[8@jhclW`3J0
 !s100 5omQV=_O]GL0CP:_`z7]<0
 R10
 31
-R11
+R65
 !i10b 1
-R12
-R60
-R61
+R59
+R66
+R67
 !i113 1
 R15
 R16
 Eexmem
-Z62 w1685448616
+Z68 w1685448618
 R2
 R3
 R4
@@ -435,19 +482,19 @@ R5
 R6
 !i122 12
 R0
-Z63 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl
-Z64 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl
+Z69 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl
+Z70 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl
 l0
 R9
 VMHG^iY149W`cB2d]=LeIk3
 !s100 GadGG`?5_D:]L;8ihCQ[`2
 R10
 31
-R20
+Z71 !s110 1686528940
 !i10b 1
-Z65 !s108 1685627589.000000
-Z66 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl|
-Z67 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl|
+R52
+Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl|
+Z73 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl|
 !i113 1
 R15
 R16
@@ -460,21 +507,21 @@ R6
 DEx4 work 5 exmem 0 22 MHG^iY149W`cB2d]=LeIk3
 !i122 12
 l27
-Z68 L23 45
+L23 45
 Vieh`:k[Mg@d<=I2^6KH3a3
 !s100 >kQTYlc>KECV9i83YO73]2
 R10
 31
-R20
+R71
 !i10b 1
-R65
-R66
-R67
+R52
+R72
+R73
 !i113 1
 R15
 R16
 Eidrr
-Z69 w1685279055
+Z74 w1686411496
 R2
 R3
 R4
@@ -482,19 +529,19 @@ R5
 R6
 !i122 10
 R0
-Z70 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl
-Z71 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl
+Z75 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl
+Z76 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl
 l0
 R9
-VUDN_NLZ^jD`fn5_ZF>B4e0
-!s100 Abf7CQG?<KI@j8E6e1kn63
+VMibXd<oNWmEaP0dV^AKC61
+!s100 JhCDiMB1NSLR7z[C@3;EK0
 R10
 31
-Z72 !s110 1685627589
+R71
 !i10b 1
-R65
-Z73 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl|
-Z74 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl|
+Z77 !s108 1686528939.000000
+Z78 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl|
+Z79 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl|
 !i113 1
 R15
 R16
@@ -504,71 +551,71 @@ R3
 R4
 R5
 R6
-DEx4 work 4 idrr 0 22 UDN_NLZ^jD`fn5_ZF>B4e0
+DEx4 work 4 idrr 0 22 MibXd<oNWmEaP0dV^AKC61
 !i122 10
-l27
-R68
-V^^kH48if>UT]3J1HLULjm2
-!s100 5XkFfG`zWCe^GJf[L;?8F2
+l28
+L24 45
+Vgz3^zjZF3Z>oVQzjA2aZI3
+!s100 _aC]1g>3O_3l6NgEE7lQB0
 R10
 31
-R72
+R71
 !i10b 1
-R65
-R73
-R74
-!i113 1
-R15
-R16
-Eifid
-Z75 w1685449228
-R2
-R3
-R4
-R5
-R6
-!i122 9
-R0
-Z76 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl
-Z77 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl
-l0
-L12 1
-VYDoBbXkEE4;C_LJ^?H81Z1
-!s100 8CI<JWz>=:<3i>JCVY3Lb2
-R10
-31
-R72
-!i10b 1
-R65
-Z78 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl|
-Z79 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl|
-!i113 1
-R15
-R16
-Abeh
-R2
-R3
-R4
-R5
-R6
-DEx4 work 4 ifid 0 22 YDoBbXkEE4;C_LJ^?H81Z1
-!i122 9
-l30
-L25 48
-Vh3TJ8aO5?]dF5U`WGQ_i:0
-!s100 TIT=0F8NmFZhLRkTDfEQW3
-R10
-31
-R72
-!i10b 1
-R65
+R77
 R78
 R79
 !i113 1
 R15
 R16
+Eifid
+Z80 w1686411087
+R2
+R3
+R4
+R5
+R6
+!i122 9
+R0
+Z81 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl
+Z82 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl
+l0
+L12 1
+VK2LMBOL^B_:0VB_PcbEj?3
+!s100 F[ZARU6UzE7lQEZFQ2cTG0
+R10
+31
+R58
+!i10b 1
+R77
+Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl|
+Z84 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl|
+!i113 1
+R15
+R16
+Abeh
+R2
+R3
+R4
+R5
+R6
+DEx4 work 4 ifid 0 22 K2LMBOL^B_:0VB_PcbEj?3
+!i122 9
+l31
+L26 48
+V=hO>D@E^;]Rjz7670TG=`3
+!s100 lGmmme[TTkX@Z5g>ERWXE1
+R10
+31
+R58
+!i10b 1
+R77
+R83
+R84
+!i113 1
+R15
+R16
 Eimem
-Z80 w1685625758
+Z85 w1686493610
 R2
 R3
 R4
@@ -576,19 +623,19 @@ R5
 R6
 !i122 5
 R0
-Z81 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl
-Z82 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl
+Z86 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl
+Z87 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl
 l0
 R9
 VhkZ=YCKEgdDdJQI=kkoTb2
 !s100 3Pf?oN5U8`?73`WLDme?z1
 R10
 31
-R53
+R65
 !i10b 1
-R54
-Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl|
-Z84 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl|
+R59
+Z88 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl|
+Z89 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl|
 !i113 1
 R15
 R16
@@ -600,22 +647,22 @@ R5
 R6
 DEx4 work 4 imem 0 22 hkZ=YCKEgdDdJQI=kkoTb2
 !i122 5
-l83
-L17 72
-VI90jP_GGG=zzj9=haR<7E3
-!s100 SfJ[od]0Nb5ROn3WoAPb]3
+l84
+L17 73
+V42[2<Nco[MRiULbP2DgMk2
+!s100 8MBW<:FGRPSScVYmlb][U3
 R10
 31
-R53
+R65
 !i10b 1
-R54
-R83
-R84
+R59
+R88
+R89
 !i113 1
 R15
 R16
 Ememwb
-R69
+R62
 R2
 R3
 R4
@@ -623,19 +670,19 @@ R5
 R6
 !i122 13
 R0
-Z85 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl
-Z86 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl
+Z90 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl
+Z91 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl
 l0
 R9
 VRlacN;U`?^na5W]:Z5EM:1
 !s100 RVZ99[?F32B3LbA_>^EK10
 R10
 31
-R20
+R71
 !i10b 1
-R21
-Z87 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl|
-Z88 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl|
+R52
+Z92 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl|
+Z93 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl|
 !i113 1
 R15
 R16
@@ -653,16 +700,16 @@ VL_IQcfS9WRDJ7QWE[G5Mo2
 !s100 d`0=9^ZWD8iX4;3C>47843
 R10
 31
-R20
+R71
 !i10b 1
-R21
-R87
-R88
+R52
+R92
+R93
 !i113 1
 R15
 R16
 Epc
-Z89 w1685627235
+Z94 w1686492797
 R2
 R3
 R4
@@ -670,19 +717,19 @@ R5
 R6
 !i122 8
 R0
-Z90 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl
-Z91 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl
+Z95 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl
+Z96 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl
 l0
 R9
-VW30;dMS1jBobd9LUORD5n1
-!s100 NG<3^^h=TVe:^njL:5BQ61
+VMkeNdb?9]RM^YcjH4h7aI0
+!s100 hB50X<2VcD@MYf0D?Z4:?0
 R10
 31
-R53
+R58
 !i10b 1
-R54
-Z92 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl|
-Z93 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl|
+R77
+Z97 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl|
+Z98 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl|
 !i113 1
 R15
 R16
@@ -692,24 +739,24 @@ R3
 R4
 R5
 R6
-DEx4 work 2 pc 0 22 W30;dMS1jBobd9LUORD5n1
+DEx4 work 2 pc 0 22 MkeNdb?9]RM^YcjH4h7aI0
 !i122 8
-l28
-L24 49
-Vne_E=n]`o<7jhLH3[99jc0
-!s100 cM2C3FhCFb7I2hI8PZLU53
+l33
+L29 62
+Vj]n7amK_bZZDNXla7N_4f2
+!s100 ]GOAmSD0ZXI_z[N=T:Mjf1
 R10
 31
-R53
+R58
 !i10b 1
-R54
-R92
-R93
+R77
+R97
+R98
 !i113 1
 R15
 R16
 Eregisterfiles
-Z94 w1685627551
+Z99 w1686493261
 R2
 R3
 R4
@@ -717,19 +764,19 @@ R5
 R6
 !i122 7
 R0
-Z95 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl
-Z96 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl
+Z100 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl
+Z101 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl
 l0
 R9
 VWT3F=DVP<`zJGfKHEm0ca0
 !s100 JABJgMzK50hR?Lkom;BSM2
 R10
 31
-R53
+R58
 !i10b 1
-R54
-Z97 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl|
-Z98 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl|
+R77
+Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl|
+Z103 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl|
 !i113 1
 R15
 R16
@@ -743,20 +790,20 @@ DEx4 work 13 registerfiles 0 22 WT3F=DVP<`zJGfKHEm0ca0
 !i122 7
 l57
 L21 71
-V23I3Yd^aj2[3HPkY]22WL1
-!s100 MV_D8R4UL3A<:;GK6bE@e3
+V>VAH:^?06XTf7nBG1kV4[1
+!s100 k^@Q<U_;d5HV86>NMGT4Z1
 R10
 31
-R53
+R58
 !i10b 1
-R54
-R97
-R98
+R77
+R102
+R103
 !i113 1
 R15
 R16
 Errex
-Z99 w1685449152
+Z104 w1686411031
 R2
 R3
 R4
@@ -764,19 +811,19 @@ R5
 R6
 !i122 11
 R0
-Z100 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl
-Z101 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl
+Z105 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl
+Z106 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl
 l0
 R9
-V]UMaza@hRZk3KgBeL=Mol0
-!s100 YIBBL5<O87^d>R]1;fJ;92
+VHCUD`HIMFzKh7UPcV<3R73
+!s100 iSkIo7ccTZ3o1Uo1fZXW]2
 R10
 31
-R72
+R71
 !i10b 1
-R65
-Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl|
-Z103 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl|
+R52
+Z107 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl|
+Z108 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl|
 !i113 1
 R15
 R16
@@ -786,41 +833,41 @@ R3
 R4
 R5
 R6
-DEx4 work 4 rrex 0 22 ]UMaza@hRZk3KgBeL=Mol0
+DEx4 work 4 rrex 0 22 HCUD`HIMFzKh7UPcV<3R73
 !i122 11
-l30
-L26 61
-VmRM^LKkOKkY]:fk1>8@g:3
-!s100 <LM3G?NG:eON1gV0hE^Wj1
+l31
+L27 61
+VJBMXWCb[nCe;X33:SRc^=1
+!s100 XM>c0<ifm:TH<]oN<Z4X`1
 R10
 31
-R72
+R71
 !i10b 1
-R65
-R102
-R103
+R52
+R107
+R108
 !i113 1
 R15
 R16
 Ese10
-R69
+R62
 R5
 R6
 !i122 3
 R0
-Z104 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd
-Z105 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd
+Z109 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd
+Z110 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd
 l0
 L4 1
 VVjE8bM@R@d^1ZOdN4QXKH1
 !s100 4E=92Sz2ecM]4j7MUhJjm3
 R10
 31
-R11
+R65
 !i10b 1
-R12
-Z106 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd|
-Z107 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd|
+R59
+Z111 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd|
+Z112 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd|
 !i113 1
 R15
 R16
@@ -830,38 +877,38 @@ R6
 DEx4 work 4 se10 0 22 VjE8bM@R@d^1ZOdN4QXKH1
 !i122 3
 l16
-Z108 L11 25
+Z113 L11 25
 V64cbBFKODi5>c75@1OjLC1
 !s100 i>j?1;0ia4OWlLzN6gQX@0
 R10
 31
-R11
+R65
 !i10b 1
-R12
-R106
-R107
+R59
+R111
+R112
 !i113 1
 R15
 R16
 Ese7
-Z109 w1685279056
+Z114 w1685279058
 R5
 R6
 !i122 4
 R0
-Z110 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd
-Z111 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd
+Z115 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd
+Z116 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd
 l0
 L4 1
 V6NjUPGVSamLJl;j877Yga3
 !s100 eK@jV5z?0?I<SKTCf7JRH0
 R10
 31
-R11
+R65
 !i10b 1
-R12
-Z112 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd|
-Z113 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd|
+R59
+Z117 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd|
+Z118 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd|
 !i113 1
 R15
 R16
@@ -871,38 +918,38 @@ R6
 DEx4 work 3 se7 0 22 6NjUPGVSamLJl;j877Yga3
 !i122 4
 l16
-R108
+R113
 V[gRcG5>lGl@CT0beP3?Q@0
 !s100 n9K<7THA:>:UJD?PKb3[T0
 R10
 31
-R11
+R65
 !i10b 1
-R12
-R112
-R113
+R59
+R117
+R118
 !i113 1
 R15
 R16
 Etestbench
-R109
+R114
 R6
 R5
-!i122 19
+!i122 20
 R0
-Z114 8C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl
-Z115 FC:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl
+Z119 8C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl
+Z120 FC:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl
 l0
 L7 1
 V]iKK_Z9L:G9B:i8c]3eFH0
 !s100 bWf8kl8zb90X@P1m>V^K20
 R10
 31
-R26
-!i10b 1
 R27
-Z116 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl|
-!s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl|
+!i10b 1
+R28
+Z121 !s90 -reportprogress|300|-93|-work|work|C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl|
+!s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl|
 !i113 1
 R15
 R16
@@ -910,18 +957,18 @@ Abehave
 R6
 R5
 DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
-!i122 19
+!i122 20
 l69
 L9 132
 V5]`1]2B:OzHN`hh<]l:ec0
 !s100 egSm8NZn_bE^D`GlEeEgc1
 R10
 31
-R26
-!i10b 1
 R27
-R116
-Z117 !s107 C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl|
+!i10b 1
+R28
+R121
+Z122 !s107 C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl|
 !i113 1
 R15
 R16

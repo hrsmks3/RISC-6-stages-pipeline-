@@ -91,4 +91,5 @@ set_global_assignment -name VHDL_FILE cz.vhdl
 set_global_assignment -name VHDL_FILE complimentor.vhdl
 set_global_assignment -name EDA_TEST_BENCH_FILE Testbench.vhdl -section_id Testbench.vhdl
 set_global_assignment -name EDA_TEST_BENCH_FILE Tracefile.txt -section_id Testbench.vhdl
+set_global_assignment -name VHDL_FILE Branch_predictor.vhd
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

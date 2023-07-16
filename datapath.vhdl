@@ -51,6 +51,7 @@ alu2b: in std_logic_vector(15 downto 0);
 pc: in std_logic_vector(15 downto 0);
 imm: in std_logic_vector(15 downto 0);
 alu2c: out std_logic_vector(15 downto 0);
+target_add: out std_logic_vector(15 downto 0);
 carry: out std_logic;
 zero: out std_logic
 );
@@ -90,6 +91,10 @@ end component;
 
 component pc is
 port(
+disable: in std_logic;
+exin: in std_logic_vector(15 downto 0);
+pcadd: in std_logic; 
+ifin: in std_logic_vector(15 downto 0);
 mwb: in std_logic_vector(19 downto 0);
 clock: in std_logic;
 rst: in std_logic;
@@ -104,6 +109,7 @@ end component;
 
 component ifid is 
 port(
+disable: in std_logic;
 clock: in std_logic;
 rst: in std_logic;
 Bubble: in std_logic;
@@ -117,6 +123,7 @@ end component;
 
 component idrr is 
 port(
+disable: in std_logic;
 clock: in std_logic;
 rst: in std_logic;
 Bubble: in std_logic;
@@ -130,6 +137,7 @@ end component;
 
 component rrex is 
 port(
+disable: in std_logic;
 clock: in std_logic;
 rst: in std_logic;
 Bubble: in std_logic;
@@ -187,8 +195,10 @@ wr2: out std_logic;
 wr3: out std_logic;
 memen: out std_logic;
 bubble: out std_logic;
+dis2: out std_logic;
 select0: out std_logic_vector(3 downto 0);
-dis2: out std_logic
+wren: out std_logic;
+taken: out std_logic
 );
 end component;
 
@@ -220,6 +230,24 @@ opcode: in std_logic_vector(3 downto 0);
 k: in std_logic;
 Din: in std_logic_vector(15 downto 0);
 Dout: out std_logic_vector
+);
+end component;
+
+component BTB is
+port(
+wren: in std_logic;
+clock: in std_logic;
+rst: in std_logic;
+--inst: in std_logic;
+branch_add1: in std_logic_vector(15 downto 0); -- in IF stage
+branch_add2: in std_logic_vector(15 downto 0); -- in EX stage
+pc: in std_logic_vector(15 downto 0);
+target_add: in std_logic_vector(15 downto 0);
+taken: in std_logic;
+add_out: out std_logic_vector(15 downto 0);
+exstage_out: out std_logic_vector(15 downto 0);
+pcadd: out std_logic;
+disable: out std_logic
 );
 end component;
 
@@ -257,27 +285,35 @@ signal carry11: std_logic := '0';
 signal zero11: std_logic := '0';
 signal alu2b0: std_logic_vector(15 downto 0) := (others => '0');
 signal dz1: std_logic := '0';
+signal wren1: std_logic := '0';
+signal target1: std_logic_vector(15 downto 0) := (others => '0');
+signal if0: std_logic_vector(15 downto 0) := (others => '0');
+signal ex0: std_logic_vector(15 downto 0) := (others => '0');
+signal pcadd1: std_logic := '0';
+signal disable0: std_logic := '0'; 
+signal taken1: std_logic := '0';
 
 
 begin
 
-pc1: pc port map (mwb => memwb0, clock => clock, rst => rst, bubble  => bubble0, check => dis0, check1 => check1, adder1out => adder10, alu2out => alu20, pcout => pc0);
+pc1: pc port map (disable => disable0, exin => ex0, pcadd => pcadd1, ifin => if0, mwb => memwb0, clock => clock, rst => rst, bubble  => bubble0, check => dis0, check1 => check1, adder1out => adder10, alu2out => alu20, pcout => pc0);
 imem1: imem port map (pc => pc0, inst => inst);
 adder11: adder1 port map (pc => pc0, adder1out => adder10);
 converter1: converter port map (clock => clock, inst0 => inst, check1 => check1, inst1 => inst0, converterout => converterout);
-ifid1: ifid port map (clock => clock, rst => rst, Bubble => bubble0, dis => dis0, pc => pc0, adder1out => adder10, Reg_datain => inst0, Reg_dataout => ifid0);
+ifid1: ifid port map (disable => disable0, clock => clock, rst => rst, Bubble => bubble0, dis => dis0, pc => pc0, adder1out => adder10, Reg_datain => inst0, Reg_dataout => ifid0);
 se71: SE7 port map (IR7 => ifid0(8 downto 0), SE7 => se70);
 se101: SE10 port map (IR10 => ifid0(5 downto 0), SE10 => se100);
-idrr1: idrr port map (clock => clock, rst => rst, Bubble => bubble0, dis => dis0, Reg_datain => ifid0, se7 => se70, se10 => se100, Reg_dataout => idrr0);
+idrr1: idrr port map (disable => disable0, clock => clock, rst => rst, Bubble => bubble0, dis => dis0, Reg_datain => ifid0, se7 => se70, se10 => se100, Reg_dataout => idrr0);
 registerfiles1: registerfiles port map (rst => rst, wr1 => memwb0(19), wr2 => wr2, wr3 => exmem0(40), a1 => idrr0(27 downto 25), a2 => idrr0(24 downto 22), a31 => memwb0(2 downto 0), a32 => rrex0(18 downto 16), a33 => exmem0(18 downto 16), d31 => memwb0(18 downto 3), d32 => alu20, d33 => dmem0, pc => pc0, d1 => regd1, d2 => regd2, regdataout => registercheck);
-rrex1: rrex port map (clock => clock, rst => rst, Bubble => bubble0, dis => dis0, dis1 => dis1, regd1 => regd1, regd2 => regd2, Reg_datain => idrr0, regaddr1 => ifid0(11 downto 9), regaddr2 => ifid0(8 downto 6), Reg_dataout => rrex0);
-alu21: alu2 port map (car => carry, dis => dis2, dis0 => rrex0(75), select0 => select0, alu2a => rrex0(50 downto 35), alu2b => alu2b0, pc => rrex0(73 downto 58), imm => rrex0(15 downto 0), alu2c => alu20, carry => carry11, zero => zero11);
-controller1: controller port map (dis => rrex0(75), regd1 => rrex0(50 downto 35), regd2 => rrex0(34 downto 19), regaddr1 => ifid0(11 downto 9), regaddr2 => ifid0(8 downto 6), regaddr => rrex0(18 downto 16), carry => carry, zero => zero, opcode => rrex0(57 downto 54), kcz => rrex0(53 downto 51), datadep => rrex0(74), check => dis0, dis1 => dis1, wr1 => wr1, wr2 => wr2, wr3 => wr3, memen => memen1, bubble => bubble0, select0 => select0, dis2 => dis2);
+rrex1: rrex port map (disable => disable0, clock => clock, rst => rst, Bubble => bubble0, dis => dis0, dis1 => dis1, regd1 => regd1, regd2 => regd2, Reg_datain => idrr0, regaddr1 => ifid0(11 downto 9), regaddr2 => ifid0(8 downto 6), Reg_dataout => rrex0);
+alu21: alu2 port map (car => carry, dis => dis2, dis0 => rrex0(75), select0 => select0, alu2a => rrex0(50 downto 35), alu2b => alu2b0, pc => rrex0(73 downto 58), imm => rrex0(15 downto 0), alu2c => alu20, target_add => target1, carry => carry11, zero => zero11);
+controller1: controller port map (dis => rrex0(75), regd1 => rrex0(50 downto 35), regd2 => rrex0(34 downto 19), regaddr1 => ifid0(11 downto 9), regaddr2 => ifid0(8 downto 6), regaddr => rrex0(18 downto 16), carry => carry, zero => zero, opcode => rrex0(57 downto 54), kcz => rrex0(53 downto 51), datadep => rrex0(74), check => dis0, dis1 => dis1, wr1 => wr1, wr2 => wr2, wr3 => wr3, memen => memen1, bubble => bubble0, select0 => select0, dis2 => dis2, wren => wren1, taken => taken1);
 exmem1: exmem port map (clock => clock, rst => rst, dis => dis2, memen => memen1, wrwb => wr1, wrmem => wr3, alu2out => alu20, Reg_datain => rrex0, Reg_dataout => exmem0);
 dmem1: dmem port map (opcode => exmem0(38 downto 35), clock => clock, rst => rst, memen => exmem0(39), addr => exmem0(34 downto 19), Din => exmem0(15 downto 0), Dout => dmem0, data_z => dz1);--, dmemcheck => dmemcheck);
 memwb1: memwb port map (clock => clock, rst => rst, dmemdata => dmem0, Reg_datain => exmem0, Reg_dataout => memwb0);
 cz1: cz port map (dz => dz1, clock => clock, c => carry11, z => zero11, rst => rst, carry => carry, zero => zero);
 complimentor1: complimentor port map (opcode => rrex0(57 downto 54), k => rrex0(53), Din => rrex0(34 downto 19), Dout => alu2b0);
+branchpredictor1: BTB port map (wren => wren1, clock => clock, rst => rst, branch_add1 => pc0, branch_add2 => rrex0(47 downto 32), pc => rrex0(47 downto 32), target_add => target1, taken => taken1, add_out => if0, exstage_out => ex0, pcadd => pcadd1, disable => disable0);
 
 dummy0 <= registercheck; --dummy outputs
 dummy1(15 downto 0) <= "1000000000000000";

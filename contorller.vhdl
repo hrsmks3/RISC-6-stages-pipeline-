@@ -28,7 +28,9 @@ wr3: out std_logic;
 memen: out std_logic;
 bubble: out std_logic;
 dis2: out std_logic;
-select0: out std_logic_vector(3 downto 0)
+select0: out std_logic_vector(3 downto 0);
+wren: out std_logic;
+taken: out std_logic
 );
 end controller;
 
@@ -43,6 +45,8 @@ signal memen1: std_logic := '0';
 signal bubble1: std_logic := '0';
 signal select01: std_logic_vector(3 downto 0) := "0000";
 signal dis21: std_logic := '0';
+signal wren1: std_logic := '0';
+signal taken1: std_logic := '0';
 
 	function inte(A: in std_logic_vector(15 downto 0) )
 	return integer is
@@ -103,17 +107,23 @@ begin
 		bubble1 <= '0'; --not update previous instruction
 		select01 <= "0000"; --alu select lines
 		dis21 <= '0'; --disable just privious instruntion
+		wren1 <= '0';
+	   taken1 <= '0';	
 		
 		if(dis = '0') then
 			
 			if(opcode = "0000") then --adi
 				
+				wren1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
+				taken1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
 				select01 <= "1011";
 				wr11 <= (not datadep) and (not (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0))));
 				wr21 <= datadep or (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0)));
 				
 			elsif(opcode = "0001") then --ada, adc, adz, awc, aca, acc, acz, acw
 				
+				wren1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
+				taken1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
 				wr11 <= (not datadep) and (not (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0))));
 				wr21 <= datadep or (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0)));
 				
@@ -121,15 +131,18 @@ begin
 					select01 <= "0000";
 					
 				elsif(kcz = "001" or kcz = "101") then
+				
 					select01 <= "0000";
 					wr11 <= wr11 and zero;
 					wr21 <= wr21 and zero;
+					wren1 <= wren1 and zero;
 					dis21 <= not zero;
 					
 				elsif(kcz = "010" or kcz = "110") then
 					select01 <= "0000";
 					wr11 <= wr11 and carry;
 					wr21 <= wr21 and carry;
+					wren1 <= wren1 and carry;
 					dis21 <= not carry;
 					
 				elsif(kcz = "011" or kcz = "111") then
@@ -138,7 +151,9 @@ begin
 				end if;
 				
 			elsif(opcode = "0010") then --ndu, ndc, ndz, ncu, ncc, ncz
-				
+			
+			   taken1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
+				wren1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
 				wr11 <= (not datadep) and (not (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0))));
 				wr21 <= datadep or (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0)));
 				
@@ -149,24 +164,30 @@ begin
 					select01 <= "0100";
 					wr11 <= wr11 and zero;
 					wr21 <= wr21 and zero;
+					wren1 <= wren1 and zero;
 					dis21 <= not zero;
 					
 				elsif(kcz = "010" or kcz = "110") then
 					select01 <= "0100";
 					wr11 <= wr11 and carry;
 					wr21 <= wr21 and carry;
+					wren1 <= wren1 and carry;
 					dis21 <= not carry;
 					
 				end if;
 				
 			elsif(opcode = "0011") then --lli
-				
+			
+			   taken1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
+				wren1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
 				select01 <= "1001";
 				wr11 <= (not datadep) and (not (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0))));
 				wr21 <= datadep or (not(regaddr1(2) xor regaddr(2)) and not(regaddr1(1) xor regaddr(1)) and not(regaddr1(0) xor regaddr(0))) or (not(regaddr2(2) xor regaddr(2)) and not(regaddr2(1) xor regaddr(1)) and not(regaddr2(0) xor regaddr(0)));
 				
 			elsif(opcode = "0100") then --lw
 				
+				taken1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
+				wren1 <= not(regaddr(2)) and not(regaddr(1)) and not(regaddr(0));
 				select01 <= "1000";
 				bubble1 <= datadep;
 				dis11 <= datadep;
@@ -182,16 +203,23 @@ begin
 				
 				select01 <= "0110";
 				check1 <= not(comp(regd1, regd2)(1) or comp(regd1, regd2)(0));
+				wren1 <= '1';
+				taken1 <= not(comp(regd1, regd2)(1) or comp(regd1, regd2)(0));
 				
 			elsif(opcode = "1001") then --blt
 				
 				select01 <= "0110";
 				check1 <= not comp(regd1, regd2)(1) and comp(regd1, regd2)(0);
+				wren1 <= '1';
+				taken1 <= not comp(regd1, regd2)(1) and comp(regd1, regd2)(0);
 				
 			elsif(opcode = "1010") then --ble
 				
 				select01 <= "0110";
 				check1 <= (not(comp(regd1, regd2)(1) or comp(regd1, regd2)(0))) or (not comp(regd1, regd2)(1) and comp(regd1, regd2)(0));
+				wren1 <= '1';
+				taken1 <= (not(comp(regd1, regd2)(1) or comp(regd1, regd2)(0))) or (not comp(regd1, regd2)(1) and comp(regd1, regd2)(0));
+				
 				
 			elsif(opcode = "1100") then --jal
 				
@@ -225,5 +253,7 @@ begin
 	bubble <= bubble1;
 	select0 <= select01;
 	dis2 <= dis21;
+	wren <= wren1;
+	taken <= taken1;
 	
 end beh;

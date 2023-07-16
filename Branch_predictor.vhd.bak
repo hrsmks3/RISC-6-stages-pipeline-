@@ -1,0 +1,80 @@
+library std;
+use std.standard.all;
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_arith.all;	 
+use ieee.std_logic_unsigned.all;
+
+entity BTB is
+port(
+wren: in std_logic;
+clock: in std_logic;
+rst: in std_logic;
+inst: in std_logic;
+branch_add: in std_logic_vector(15 downto 0);
+target_add: in std_logic_vector(15 downto 0);
+taken: in std_logic;
+add_out: out std_logic_vector(15 downto 0);
+);
+end BTB;
+
+architecture beh of BTB is 
+
+type btbarray is array(255 downto 0) of std_logic_vector(33 downto 0);   
+signal BTBF: btbarray:= (
+0 => "0000000000000000000000000000000000",
+1 => "0000000000000000000000000000000000",
+2 => "0000000000000000000000000000000000",
+3 => "0000000000000000000000000000000000",
+4 => "0000000000000000000000000000000000",
+5 => "0000000000000000000000000000000000",
+6 => "0000000000000000000000000000000000",
+7 => "0000000000000000000000000000000000",
+others => "0000000000000000000000000000000000"
+);
+signal add1: std_logic_vector(15 downto 0) := "0000000000000000";
+
+	function inte(A: in std_logic_vector(2 downto 0))
+	return integer is
+	
+	variable a1: integer := 0;
+	
+	begin
+		
+		L1: for i in 0 to 2 loop
+			
+			if(A(i) = '1') then
+				a1 := a1 + (2**i);
+			end if;
+			
+		end loop L1;
+		
+	return a1;
+	
+	end inte;
+
+begin
+	
+	process (clock, rst, branch_add, target_add, taken) --8 register files
+	
+	begin
+		
+		if(rst = '1') then
+			
+			BTBF <= (others => "0000000000000000000000000000000000");
+			
+		else
+		
+		  if(taken = '0') then
+		  
+		   00
+		
+	end process;
+	
+	d1 <= RegisterF(inte(a1));
+	d2 <= RegisterF(inte(a2));
+	regdataout <= RegisterF(3); --reads registerfile
+	
+end beh;

@@ -11,10 +11,10 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:06 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl 
+# Start time: 05:45:37 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/converter.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -23,12 +23,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity converter
 # -- Compiling architecture beh of converter
-# End time: 19:23:07 on Jun 01,2023, Elapsed time: 0:00:01
+# End time: 05:45:37 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:07 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl 
+# Start time: 05:45:37 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/adder1.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -37,45 +37,45 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity adder1
 # -- Compiling architecture beh of adder1
-# End time: 19:23:07 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:37 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:07 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl 
+# Start time: 05:45:38 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/DUT.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity DUT
 # -- Compiling architecture DutWrap of DUT
-# End time: 19:23:07 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:38 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:07 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd 
+# Start time: 05:45:38 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE10.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE10
 # -- Compiling architecture beh of SE10
-# End time: 19:23:07 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:38 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:07 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd 
+# Start time: 05:45:38 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/SE7.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity SE7
 # -- Compiling architecture beh of SE7
-# End time: 19:23:07 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:38 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:08 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl 
+# Start time: 05:45:38 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/imem.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -84,12 +84,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity imem
 # -- Compiling architecture beh of imem
-# End time: 19:23:08 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:38 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:08 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl 
+# Start time: 05:45:38 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/dmem.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -98,12 +98,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity dmem
 # -- Compiling architecture beh of dmem
-# End time: 19:23:08 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:39 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:08 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl 
+# Start time: 05:45:39 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/registerfiles.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -112,12 +112,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity registerfiles
 # -- Compiling architecture beh of registerfiles
-# End time: 19:23:08 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:39 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:08 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl 
+# Start time: 05:45:39 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/pc.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -126,12 +126,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity pc
 # -- Compiling architecture beh of pc
-# End time: 19:23:09 on Jun 01,2023, Elapsed time: 0:00:01
+# End time: 05:45:39 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:09 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl 
+# Start time: 05:45:39 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/ifid.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -140,12 +140,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity ifid
 # -- Compiling architecture beh of ifid
-# End time: 19:23:09 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:39 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:09 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl 
+# Start time: 05:45:39 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/idrr.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -154,12 +154,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity idrr
 # -- Compiling architecture beh of idrr
-# End time: 19:23:09 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:40 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:09 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl 
+# Start time: 05:45:40 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/rrex.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -168,12 +168,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity rrex
 # -- Compiling architecture beh of rrex
-# End time: 19:23:09 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:40 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:09 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl 
+# Start time: 05:45:40 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/exmem.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -182,12 +182,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity exmem
 # -- Compiling architecture beh of exmem
-# End time: 19:23:10 on Jun 01,2023, Elapsed time: 0:00:01
+# End time: 05:45:40 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:10 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl 
+# Start time: 05:45:40 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/memwb.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -196,12 +196,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity memwb
 # -- Compiling architecture beh of memwb
-# End time: 19:23:10 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:40 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:10 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl 
+# Start time: 05:45:40 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/datapath.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -210,12 +210,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity datapath
 # -- Compiling architecture beh of datapath
-# End time: 19:23:10 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:41 on Jun 12,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:10 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd 
+# Start time: 05:45:41 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/alu2.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -224,12 +224,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity alu2
 # -- Compiling architecture beh of alu2
-# End time: 19:23:10 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:41 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:10 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl 
+# Start time: 05:45:41 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/contorller.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -238,12 +238,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity controller
 # -- Compiling architecture beh of controller
-# End time: 19:23:11 on Jun 01,2023, Elapsed time: 0:00:01
+# End time: 05:45:41 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:11 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl 
+# Start time: 05:45:41 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/cz.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -252,12 +252,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity cz
 # -- Compiling architecture beh of cz
-# End time: 19:23:11 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:41 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:11 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl 
+# Start time: 05:45:41 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/complimentor.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -266,24 +266,38 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity complimentor
 # -- Compiling architecture beh of complimentor
-# End time: 19:23:11 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:42 on Jun 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Branch_predictor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:45:42 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Branch_predictor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity BTB
+# -- Compiling architecture beh of BTB
+# End time: 05:45:42 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl}
+# vcom -93 -work work {C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 19:23:11 on Jun 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/USER/Downloads/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl 
+# Start time: 05:45:42 on Jun 12,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/USER/OneDrive/Documents/EE309_project/EE309_project/Quartus_code_and_simulation/Project/Testbench.vhdl 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Testbench
 # -- Compiling architecture Behave of Testbench
-# End time: 19:23:11 on Jun 01,2023, Elapsed time: 0:00:00
+# End time: 05:45:42 on Jun 12,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
-# Start time: 19:23:11 on Jun 01,2023
+# Start time: 05:45:42 on Jun 12,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -310,6 +324,7 @@
 # Loading work.memwb(beh)
 # Loading work.cz(beh)
 # Loading work.complimentor(beh)
+# Loading work.btb(beh)
 # 
 # add wave *
 # view structure
@@ -319,5 +334,5 @@
 # run 500 ns
 # ** Note: SUCCESS, all tests passed.
 #    Time: 456 ns  Iteration: 0  Instance: /testbench
-# End time: 19:24:15 on Jun 01,2023, Elapsed time: 0:01:04
+# End time: 05:46:56 on Jun 12,2023, Elapsed time: 0:01:14
 # Errors: 0, Warnings: 0
